@@ -1,0 +1,21 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" >	
+    <!--Manmeet : /> -->
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4 col-md-4 msiBoxCol">
+            <a href="" aura:id="liveagent_button_online_57390000000fxVt" class="thumbnail msiBox1" 
+               style=" text-align:center;padding-bottom: 2em;display: none;" onclick="{!c.startChat}">
+                <div class="msi-img1" style="padding-top:20px;"></div>
+                <h3>Live Chat Online</h3>
+            </a>
+
+            <a href="" aura:id="liveagent_button_offline_57390000000fxVt" class="thumbnail msiBox1" 
+               style=" text-align:center;padding-bottom: 2em;display: none;">
+                <div class="msi-img1" style="padding-top:20px;"></div>
+                <h3>Live Chat Offline</h3>
+            </a>
+
+        </div>
+    </div>
+</div>
+</aura:component>
